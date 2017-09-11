@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  font-family: 'Open Sans', 'sans-serif';
+}
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+/*consider removing carousel chevrons*/
+.carousel-control {
+  width: 30px;
+  height: 30px;
+  top: 0px;
+}
+.left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+ .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      letter-spacing: 4px;
+      border-bottom: 2px solid gray;
+  }
+
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+    display: block;
+    max-width: 100%;
+    height: 400px;
+  }
+
+.border-bottom: {
+  border-bottom: 2px solid gray; 
+}
+
+.brown-aside {
+
+      background-color: #2d2d30 !important;
+      border-top: 2px solid gray; 
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+      color: #fff !important;
+
+  }
+
+  .brown-aside ol li{
+    list-style-type: none !important ;
+  }
+
+.brown-aside h2{
+  color: #d5d5d5 !important;
+}
+   .brown-aside li a  { 
+      color: #d5d5d5 !important;
+  }
+  .brown-aside a:hover {
+      color: #fff !important;
+  }
+  .brown-aside li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+        }
+  footer{
+      background-color: #2d2d30 !important;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+      color: #fff !important;
+      border-color: #2d2d30; 
+  }
+
+.FA > a{
+  color:#d5d5d5;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.clear{
+  clear: all;
+}
